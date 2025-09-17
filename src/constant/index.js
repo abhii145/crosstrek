@@ -1,5 +1,21 @@
 import { FaInstagram, FaWhatsapp, FaYoutube } from "react-icons/fa"
 
+// Equipment Images
+import treadmill from "../assets/equipment/Treadmill.jpg"
+import crosstrainer from "../assets/equipment/crosstrainer.webp"
+import cycle from "../assets/equipment/cycle.jpg"
+import crosscable from "../assets/equipment/crosscable.avif"
+import hex from "../assets/equipment/hex.webp"
+import pec from "../assets/equipment/pec.jpg"
+import smith from "../assets/equipment/smith.jpg"
+import legpress from "../assets/equipment/legpress.png"
+import legcurl from "../assets/equipment/legcurl.jpeg"
+import lattpulldown from "../assets/equipment/lattpulldown.jpeg"
+
+// Transformation Images
+import fatImage from "../assets/transformation/fat.jpeg"
+import fitImage from "../assets/transformation/fit.jpg"
+
 const amenities = [
   {
     icon: "🏃‍♂️",
@@ -115,61 +131,61 @@ const trainers = [
 
 const equipmentImages = [
   {
-    src: "/src/assets/equipment/Treadmill.jpg",
+    src: treadmill,
     alt: "Treadmill",
     label: "Treadmill",
     quantity: 3,
   },
   {
-    src: "/src/assets/equipment/crosstrainer.webp",
+    src: crosstrainer,
     alt: "Cross Trainer",
     label: "Cross Trainer",
     quantity: 2,
   },
   {
-    src: "/src/assets/equipment/cycle.jpg",
+    src: cycle,
     alt: "Stationary Bike",
     label: "Cycle",
     quantity: 3,
   },
   {
-    src: "/src/assets/equipment/crosscable.avif",
+    src: crosscable,
     alt: "Cable Machine",
     label: "Cable Machine",
     quantity: 2,
   },
   {
-    src: "/src/assets/equipment/hex.webp",
+    src: hex,
     alt: "Hex Machine",
     label: "Hex Machine",
     quantity: 1,
   },
   {
-    src: "/src/assets/equipment/pec.jpg",
+    src: pec,
     alt: "Pec Dec Machine",
     label: "Pec Dec Machine",
     quantity: 2,
   },
   {
-    src: "/src/assets/equipment/smith.jpg",
+    src: smith,
     alt: "Smith Machine",
     label: "Smith Machine",
     quantity: 1,
   },
   {
-    src: "/src/assets/equipment/legpress.png",
+    src: legpress,
     alt: "Leg Press Machine",
     label: "Leg Press Machine",
     quantity: 1,
   },
   {
-    src: "/src/assets/equipment/legcurl.jpeg",
+    src: legcurl,
     alt: "Leg Curl Machine",
     label: "Leg Curl Machine",
     quantity: 1,
   },
   {
-    src: "/src/assets/equipment/lattpulldown.jpeg",
+    src: lattpulldown,
     alt: "Lat pulldown Machine",
     label: "Lat pulldown Machine",
     quantity: 2,
@@ -185,64 +201,64 @@ const navLinks = [
 const reviews = [
   {
     name: "John Doe",
-    beforeImg: "src/assets/transformation/fat.jpeg",
-    afterImg: "src/assets/transformation/fit.jpg",
+    beforeImg: fatImage,
+    afterImg: fitImage,
     review:
       "Joining this gym transformed my life! With the help of Trainer Alex, I lost 20kg and gained confidence.",
     trainer: "Alex Smith",
   },
   {
     name: "Priya Sharma",
-    beforeImg: "src/assets/transformation/fat.jpeg",
-    afterImg: "src/assets/transformation/fit.jpg",
+    beforeImg: fatImage,
+    afterImg: fitImage,
     review:
       "The group classes and personalized attention from Trainer Maya made all the difference in my journey.",
     trainer: "Maya Patel",
   },
   {
     name: "John Doe4",
-    beforeImg: "src/assets/transformation/fat.jpeg",
-    afterImg: "src/assets/transformation/fit.jpg",
+    beforeImg: fatImage,
+    afterImg: fitImage,
     review:
       "Joining this gym transformed my life! With the help of Trainer Alex, I lost 20kg and gained confidence.",
     trainer: "Alex Smith",
   },
   {
     name: "Priya Sharma4",
-    beforeImg: "src/assets/transformation/fat.jpeg",
-    afterImg: "src/assets/transformation/fit.jpg",
+    beforeImg: fatImage,
+    afterImg: fitImage,
     review:
       "The group classes and personalized attention from Trainer Maya made all the difference in my journey.",
     trainer: "Maya Patel",
   },
   {
     name: "John Doe3",
-    beforeImg: "src/assets/transformation/fat.jpeg",
-    afterImg: "src/assets/transformation/fit.jpg",
+    beforeImg: fatImage,
+    afterImg: fitImage,
     review:
       "Joining this gym transformed my life! With the help of Trainer Alex, I lost 20kg and gained confidence.",
     trainer: "Alex Smith",
   },
   {
     name: "Priya Sharma3",
-    beforeImg: "src/assets/transformation/fat.jpeg",
-    afterImg: "src/assets/transformation/fit.jpg",
+    beforeImg: fatImage,
+    afterImg: fitImage,
     review:
       "The group classes and personalized attention from Trainer Maya made all the difference in my journey.",
     trainer: "Maya Patel",
   },
   {
     name: "John Doe2",
-    beforeImg: "src/assets/transformation/fat.jpeg",
-    afterImg: "src/assets/transformation/fit.jpg",
+    beforeImg: fatImage,
+    afterImg: fitImage,
     review:
       "Joining this gym transformed my life! With the help of Trainer Alex, I lost 20kg and gained confidence.",
     trainer: "Alex Smith",
   },
   {
     name: "Priya Sharma2",
-    beforeImg: "src/assets/transformation/fat.jpeg",
-    afterImg: "src/assets/transformation/fit.jpg",
+    beforeImg: fatImage,
+    afterImg: fitImage,
     review:
       "The group classes and personalized attention from Trainer Maya made all the difference in my journey.",
     trainer: "Maya Patel",
@@ -278,11 +294,9 @@ const socialLinks = [
   },
 ]
 
-
-
 const CONTACT_INFO = {
-  phones: ['989270050', '7028432885'],
-  offer: 'Limited period offer! For more discount contact us.'
+  phones: ["989270050", "7028432885"],
+  offer: "Limited period offer! For more discount contact us.",
 }
 
 export {
@@ -294,5 +308,5 @@ export {
   reviews,
   pricingPlans,
   socialLinks,
-  CONTACT_INFO
+  CONTACT_INFO,
 }
