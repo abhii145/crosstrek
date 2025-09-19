@@ -1,13 +1,6 @@
 import React, { useEffect } from "react"
-import Navbar from "./sections/Navbar"
-import Home from "./sections/Home"
-import Classes from "./sections/Classes"
-import About from "./sections/About"
-import ExpertTrainers from "./sections/ExpertTrainers"
-import Gallery from "./sections/Gallery"
-import Footer from "./sections/Footer"
-import Reviews from "./sections/Reviews"
 import "./styles/modern.css"
+import { About, Classes, ExpertTrainers, Footer, Gallery, Home, Navbar, Reviews } from "./sections"
 
 const App = () => {
   useEffect(() => {
