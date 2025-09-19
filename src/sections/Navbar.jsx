@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import Button from "../components/Button"
 import EnquireForm from "./EnquireForm"
 import { navLinks } from "../constant"
+import logo from "../assets/logo.jpeg"
 
 const Navbar = () => {
   const [showModal, setShowModal] = useState(false)
@@ -14,9 +15,13 @@ const Navbar = () => {
       <nav className="sticky-navbar px-6 py-4 flex items-center justify-between shadow-sm">
         <a
           href="#home"
-          className="text-2xl font-bold text-blue-700 whitespace-nowrap"
+          className="text-2xl font-bold text-blue-700 whitespace-nowrap flex items-center"
         >
-          Crosstrek
+          <img
+            src={logo}
+            alt="Crosstrek Logo"
+            className="h-15 w-38 inline-block mr-2"
+          />
         </a>
         <div className="flex items-center w-auto">
           <div className="hidden md:flex space-x-6 items-center">
